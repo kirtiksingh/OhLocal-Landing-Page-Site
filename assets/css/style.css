@@ -842,7 +842,7 @@ section {
 /*--------------------------------------------------------------
 # Frequently Asked Questions
 --------------------------------------------------------------*/
-.faq .accordion-list {
+/* .faq .accordion-list {
   padding: 0 100px;
 }
 
@@ -919,7 +919,7 @@ section {
   .faq .accordion-list {
     padding: 0;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Contact
@@ -934,7 +934,7 @@ section {
 
 .contact .info i {
   font-size: 48px;
-  color: #9fb2d8;
+  color: #EF8A00;
   margin-bottom: 15px;
 }
 
@@ -1012,7 +1012,7 @@ section {
 
 .contact .php-email-form input:focus,
 .contact .php-email-form textarea:focus {
-  border-color: #5777ba;
+  border-color: #FFB500;
 }
 
 .contact .php-email-form input {
@@ -1025,16 +1025,16 @@ section {
 
 .contact .php-email-form button[type="submit"] {
   background: #fff;
-  border: 2px solid #5777ba;
+  border: 2px solid #EF8A00;
   padding: 10px 24px;
-  color: #5777ba;
+  color: #EF8A00;
   transition: 0.4s;
   border-radius: 50px;
   margin-top: 5px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #5777ba;
+  background: #EF8A00;
   color: #fff;
 }
 
@@ -1120,7 +1120,7 @@ section {
   background: none;
   font-size: 16px;
   padding: 0 20px;
-  background: #5777ba;
+  background: #EF8A00;
   color: #fff;
   transition: 0.3s;
   border-radius: 50px;
@@ -1128,7 +1128,7 @@ section {
 }
 
 #footer .footer-newsletter form input[type="submit"]:hover {
-  background: #415f9d;
+  background: #A25D00;
 }
 
 #footer .footer-top {
@@ -1177,7 +1177,7 @@ section {
 
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #9fb2d8;
+  color: #EF8A00;
   font-size: 18px;
   line-height: 1;
 }
@@ -1201,13 +1201,13 @@ section {
 
 #footer .footer-top .footer-links ul a:hover {
   text-decoration: none;
-  color: #5777ba;
+  color: #d67b00;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #5777ba;
+  background: #EF8A00;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
