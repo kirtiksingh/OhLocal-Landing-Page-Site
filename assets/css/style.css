@@ -1132,8 +1132,8 @@ section {
 }
 
 #footer .footer-top {
-  padding: 60px 0 30px 0;
-  background: #fff;
+  padding: 30px 0 10px 0;
+  background: #EFF2F8;
 }
 
 #footer .footer-top .footer-contact {
@@ -1261,14 +1261,6 @@ section {
   /* align-items: center; */
 }
 
-@media (max-width: 988px) {
-  .main-screenshot {
-    margin: auto;
-    width: 40%;
-    align-items: center;
-  }
-}
-
 .container{
   max-width: 1020px;
 }
@@ -1284,4 +1276,56 @@ section {
 .tagline{
   font-weight: 800 !important; 
   /* font-size: 2rem; */
+}
+
+.appstore{
+  width: 35%;
+  /* margin: 0 2%; */
+}
+
+.appstore:first-child{
+  margin-right: 5%;
+}
+
+.appstore-footer{
+  width: 28%;
+}
+
+.bolded-sections{
+  font-weight: 500 !important;
+  font-size: 36px !important;
+}
+
+.img-fluid-features{
+  width: 70%;
+}
+
+.footer-app{
+  margin-bottom: 4%;
+}
+
+.footer-app-heading{
+  margin-bottom: 0;
+}
+
+.py-4{
+  padding-top: 0 !important;
+}
+
+@media (max-width: 988px) {
+  .main-screenshot {
+    margin: auto;
+    width: 50%;
+    align-items: center;
+  }
+  .mobile-tagline{
+    padding-top: 0 !important;
+  }
+  .tagline{
+    text-align: left !important;
+    font-size: 34px !important;
+  }
+  #footer{
+    padding: 0;
+  }
 }
