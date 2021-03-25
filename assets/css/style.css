@@ -14,12 +14,12 @@ body {
 }
 
 a {
-  color: #5777ba;
+  color: #47536e;
   text-decoration: none;
 }
 
 a:hover {
-  color: #7b94c9;
+  color: #EF8A00;
   text-decoration: none;
 }
 
@@ -1312,6 +1312,10 @@ section {
   padding-top: 0 !important;
 }
 
+.black{
+  color: #000 !important;
+}
+
 @media (max-width: 988px) {
   .main-screenshot {
     margin: auto;
@@ -1319,7 +1323,7 @@ section {
     align-items: center;
   }
   .mobile-tagline{
-    padding-top: 0 !important;
+    padding-top: 20% !important;
   }
   .tagline{
     text-align: left !important;
