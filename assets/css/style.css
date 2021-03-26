@@ -473,6 +473,7 @@ section {
   padding-bottom: 0;
   color: #D67B00;
   font-family: "Poppins", sans-serif;
+  padding-top: 15%;
 }
 
 .section-title p {
@@ -565,8 +566,11 @@ section {
 
 @media (max-width: 667px) {
   .features .image img {
-    max-width: 100%;
+    max-width: 80%;
   }
+  /* br:nth-child(2){
+    display: none;
+  } */
 }
 
 /*--------------------------------------------------------------
@@ -1074,7 +1078,7 @@ section {
 --------------------------------------------------------------*/
 #footer {
   background: #fff;
-  padding: 0 0 30px 0;
+  padding: 0 0 0px 0;
   color: #47536e;
   font-size: 14px;
   background: #eff2f8;
@@ -1284,6 +1288,7 @@ section {
   font-weight: 800 !important; 
   /* font-size: 2rem; */
   text-shadow: 1px 1px #000;
+  font-size: 50px;
 }
 
 .appstore{
@@ -1292,11 +1297,11 @@ section {
 }
 
 .appstore:first-child{
-  margin-right: 5%;
+  margin: 2%;
 }
 
 .appstore-footer{
-  width: 40%;
+  width: 50%;
 }
 
 .bolded-sections{
@@ -1323,6 +1328,7 @@ section {
 
 .black{
   color: #000 !important;
+  font-size: 24px !important;
 }
 
 .app-features{
@@ -1362,7 +1368,9 @@ section {
   .pt-5{
     padding-top: 2em !important;
   }
-
+  .black{
+    font-size: 18px !important;
+  }
   
 }
 
