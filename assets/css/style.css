@@ -1333,6 +1333,7 @@ section {
 
 .app-features{
   /* margin-top: 0 !important; */
+  /* margin-bottom: 5em; */
 }
 
 .mt-3{
@@ -1371,6 +1372,11 @@ section {
   .black{
     font-size: 18px !important;
   }
+  
+.app-features{
+  /* margin-top: 0 !important; */
+  margin-bottom: 5em;
+}
   
 }
 
