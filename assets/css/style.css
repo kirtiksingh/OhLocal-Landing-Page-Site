@@ -1310,8 +1310,8 @@ section {
 }
 
 .img-fluid-features{
-  height: 80%;
-  max-height: 19em;
+  height: 100%;
+  max-height: 20em;
 }
 
 .footer-app{
